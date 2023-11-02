@@ -42,27 +42,27 @@
             <Button
                 android:id="@+id/button7"
                 android:layout_width="90dp"
-                android:layout_height="50dp"
+                android:layout_height="90dp"
                 android:text="7"
                 />
             <Button
                 android:id="@+id/button8"
                 android:layout_width="90dp"
-                android:layout_height="50dp"
+                android:layout_height="90dp"
                 android:text="8"
                 />
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="90dp"
-                android:layout_height="50dp"
+                android:layout_height="90dp"
                 android:text="9"
                 />
 
             <Button
                 android:id="@+id/button"
                 android:layout_width="90dp"
-                android:layout_height="50dp"
+                android:layout_height="90dp"
                 android:text="待定"
 
 
@@ -71,7 +71,7 @@
             <Button
                 android:id="@+id/button4"
                 android:layout_width="90dp"
-                android:layout_height="50dp"
+                android:layout_height="90dp"
                 android:text="4"
 
 
@@ -80,7 +80,7 @@
             <Button
                 android:id="@+id/button5"
                 android:layout_width="90dp"
-                android:layout_height="50dp"
+                android:layout_height="90dp"
                 android:text="5"
 
 
@@ -89,7 +89,7 @@
             <Button
                 android:id="@+id/button6"
                 android:layout_width="90dp"
-                android:layout_height="50dp"
+                android:layout_height="90dp"
                 android:text="6"
 
 
@@ -98,7 +98,7 @@
             <Button
                 android:id="@+id/buttonn"
                 android:layout_width="90dp"
-                android:layout_height="50dp"
+                android:layout_height="90dp"
                 android:text="待定"
 
 
@@ -107,7 +107,7 @@
             <Button
                 android:id="@+id/button1"
                 android:layout_width="90dp"
-                android:layout_height="50dp"
+                android:layout_height="90dp"
                 android:text="1"
 
 
@@ -116,7 +116,7 @@
             <Button
                 android:id="@+id/button2"
                 android:layout_width="90dp"
-                android:layout_height="50dp"
+                android:layout_height="90dp"
                 android:text="2"
 
 
@@ -125,7 +125,7 @@
             <Button
                 android:id="@+id/button3"
                 android:layout_width="90dp"
-                android:layout_height="50dp"
+                android:layout_height="90dp"
                 android:text="3"
 
 
@@ -134,21 +134,21 @@
             <Button
                 android:id="@+id/buttonnn"
                 android:layout_width="90dp"
-                android:layout_height="50dp"
+                android:layout_height="90dp"
                 android:text="待定"
                 />
 
             <Button
                 android:id="@+id/buttondot"
                 android:layout_width="90dp"
-                android:layout_height="50dp"
+                android:layout_height="90dp"
                 android:text="."
                 />
 
             <Button
                 android:id="@+id/button0"
                 android:layout_width="90dp"
-                android:layout_height="50dp"
+                android:layout_height="90dp"
                 android:text="0"
 
 
@@ -157,7 +157,7 @@
             <Button
                 android:id="@+id/buttondel"
                 android:layout_width="90dp"
-                android:layout_height="50dp"
+                android:layout_height="90dp"
                 android:text="删除"
 
 
@@ -166,7 +166,7 @@
             <Button
                 android:id="@+id/buttonconfirm"
                 android:layout_width="90dp"
-                android:layout_height="50dp"
+                android:layout_height="90dp"
                 android:text="确定"
 
 
