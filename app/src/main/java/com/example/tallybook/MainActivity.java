@@ -135,5 +135,14 @@ public class MainActivity extends AppCompatActivity {
 
             ;
         });
+        Button butdel = findViewById(R.id.buttondel);
+        butdel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mainView.setText("");
+
+            }
+        }
+        );
     }
 }
