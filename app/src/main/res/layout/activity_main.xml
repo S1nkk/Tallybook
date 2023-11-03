@@ -33,7 +33,17 @@
             android:textAlignment="center"
             android:textSize="30sp" />
 
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/SecView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="100dp"
+            />
+
         <GridLayout
+
+            android:padding="2dp"
             android:layout_width="360dp"
             android:layout_height="match_parent"
             android:columnCount="4"

@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //初始化文字
         TextView mainView = findViewById(R.id.tempView);
+        TextView SecnView = findViewById(R.id.SecView);
 
         //变量定义
 
@@ -127,13 +128,12 @@ public class MainActivity extends AppCompatActivity {
 
                 if(num!=0&&price!=0)
                 {
-
+                    SecnView.setText("单价："+price+"数量："+num+"当日总价："+price*num);
                     num = 0;
                     price = 0;
                 }
                 mainView.setText("");
             }
-
             ;
         });
         Button butdel = findViewById(R.id.buttondel);
