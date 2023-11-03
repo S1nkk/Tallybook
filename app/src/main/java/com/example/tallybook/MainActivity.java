@@ -131,6 +131,7 @@ public class MainActivity extends AppCompatActivity {
                     num = 0;
                     price = 0;
                 }
+                mainView.setText("");
             }
 
             ;
