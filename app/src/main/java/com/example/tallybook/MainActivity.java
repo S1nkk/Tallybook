@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         //初始化文字
         TextView mainView = findViewById(R.id.tempView);
         TextView SecnView = findViewById(R.id.SecView);
-
+        TextView tempV = findViewById(R.id.BeforeVIew);
         //变量定义
 
 
@@ -119,18 +119,23 @@ public class MainActivity extends AppCompatActivity {
                 {
                     num = fake_num;
                     fake_num=0;
+                    tempV.append("已输入：数量："+num);
+
                 }
                 else if (fake_num<5)
                 {
                     price = fake_num;
                     fake_num=0;
+                    tempV.append("已输入：单价："+price);
                 }
 
                 if(num!=0&&price!=0)
                 {
-                    SecnView.setText("单价："+price+"数量："+num+"当日总价："+price*num);
+                    SecnView.setText("单价："+price+"\n数量："+num+"\n当日总价："+price*num);
                     num = 0;
                     price = 0;
+
+                    tempV.setText("");
                 }
                 mainView.setText("");
             }
